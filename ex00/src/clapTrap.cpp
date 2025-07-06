@@ -6,11 +6,11 @@
 /*   By: brian <brian@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/06 18:40:33 by brian             #+#    #+#             */
-/*   Updated: 2025/07/06 19:17:38 by brian            ###   ########.fr       */
+/*   Updated: 2025/07/06 19:29:31 by brian            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "clapTrap.hpp"
+#include "ClapTrap.hpp"
 
 ClapTrap::ClapTrap(): _name("default"), _hitPoints(10), _energyPoints(10), _attackDamage(0)
 {
