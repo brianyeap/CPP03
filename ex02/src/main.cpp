@@ -6,30 +6,27 @@
 /*   By: brian <brian@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/06 19:27:12 by brian             #+#    #+#             */
-/*   Updated: 2025/07/07 20:45:46 by brian            ###   ########.fr       */
+/*   Updated: 2025/07/07 19:55:07 by brian            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ScavTrap.hpp"
 
+#include "FragTrap.hpp"
+#include "ScavTrap.hpp"
+
 int main() {
-  std::cout << std::endl << "\033[34mConstructing\033[0m" << std::endl;
-  ScavTrap c;
-  ScavTrap d("ligma");
+  std::cout << "\033[34mConstructing\033[0m" << std::endl;
+  FragTrap e;
+  FragTrap f("pepe");
 
-  std::cout << std::endl << "\033[34mTesting\033[0m" << std::endl;
-  // ClapTrap* ptr = new ScavTrap("ScavTrap-clone");
-  // ptr->attack("target");
-  c.attack("CloneTrap");
-  c.beRepaired(22);
-  c.takeDamage(21);
-  c.guardGate();
-  c.guardGate();
-  d.attack("ligma-clone");
-  d.takeDamage(101);
-  d.takeDamage(15);
-  d.attack("ScavTrap-clone");
-
-  std::cout << std::endl << "\033[34mDeconstructing\033[0m" << std::endl;
+  std::cout << "\033[34mTesting\033[0m" << std::endl;
+  e.highFiveGuys();
+  e.attack("some random dude");
+  e.takeDamage(101);
+  e.takeDamage(1);
+  e.attack("some random dude");
+  f.highFiveGuys();
+  std::cout << "\033[34mDeconstructing\033[0m" << std::endl;
   return (0);
 }
