@@ -6,7 +6,7 @@
 /*   By: brian <brian@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/06 19:31:22 by brian             #+#    #+#             */
-/*   Updated: 2025/07/06 20:01:03 by brian            ###   ########.fr       */
+/*   Updated: 2025/07/09 16:13:47 by brian            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@ ScavTrap &ScavTrap::operator=(const ScavTrap &src) {
   this->_hitPoints = src._hitPoints;
   this->_energyPoints = src._energyPoints;
   this->_attackDamage = src._attackDamage;
+  this->_guarding_gate = src._guarding_gate;
   return *this;
 }
 
